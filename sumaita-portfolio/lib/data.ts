@@ -26,7 +26,7 @@ export const hero = {
   roles: ["Web Designer", "ML & AI Enthusiast", "Programming Learner"],
   description:
     "Passionate about coding, AI, machine learning, and modern web development. Focused on creating elegant digital experiences while continuously learning cutting-edge technologies.",
-  resumeUrl: "#",
+  resumeUrl: "/SUMAITA RESUME.pdf",
 };
 
 export const about = {
