@@ -162,8 +162,8 @@ export const achievements = [
 ];
 
 export const resume = {
-  url: "#",
-  label: "/SUMAITA RESUME.pdf",
+  url: "/SUMAITA RESUME.pdf",
+  label: "Download Resume",
 };
 
 export const contact = {
