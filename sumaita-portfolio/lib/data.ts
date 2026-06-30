@@ -46,7 +46,7 @@ export const education = [
     institution: "East Delta University",
     degree: "B.Sc in Computer Science & Engineering",
     period: "2023 – Present",
-    detail: "",
+    detail: "3.50",
   },
   {
     institution: "Bangladesh Mahila Samiti Girls' High School & College",
