@@ -173,10 +173,10 @@ export const contact = {
 };
 
 export const socialLinks = [
-  { label: "LinkedIn", url: "#" },
+  { label: "LinkedIn", url: "https://www.linkedin.com/in/sumaita-islam-495712387/" },
   { label: "GitHub", url: "#" },
-  { label: "Facebook", url: "#" },
-  { label: "Instagram", url: "#" },
+  { label: "Facebook", url: "https://www.facebook.com/sumaita.islam.180410" },
+  { label: "Instagram", url: "https://www.instagram.com/sumaita_samira/" },
   { label: "Twitter", url: "#" },
 ];
 
