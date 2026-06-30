@@ -1,0 +1,80 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: 255 255 255;
+  --surface: 255 255 255;
+  --primary: 17 17 17;
+  --secondary: 102 102 102;
+  --accent: 37 99 235;
+  --border: 234 234 234;
+}
+
+.dark {
+  --background: 10 10 11;
+  --surface: 19 19 22;
+  --primary: 245 245 245;
+  --secondary: 161 161 170;
+  --accent: 59 130 246;
+  --border: 35 35 39;
+}
+
+* {
+  border-color: rgb(var(--border));
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: rgb(var(--background));
+  color: rgb(var(--primary));
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+::selection {
+  background-color: rgb(var(--accent) / 0.18);
+  color: rgb(var(--primary));
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgb(var(--border));
+  border-radius: 999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(var(--secondary) / 0.5);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+.dot-grid {
+  background-image: radial-gradient(rgb(var(--border)) 1px, transparent 1px);
+  background-size: 28px 28px;
+}
+
+.section-eyebrow {
+  font-family: var(--font-jakarta);
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: rgb(var(--accent));
+}
