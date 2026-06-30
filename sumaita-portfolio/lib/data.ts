@@ -167,9 +167,9 @@ export const resume = {
 };
 
 export const contact = {
-  email: "contact@sumaitaislam.dev",
-  phone: "",
-  address: "Chattogram, Bangladesh",
+  email: "sumaitaislam0701@gmail.com",
+  phone: "+8801851-647225",
+  address: "Banani Housing Society, Aturar Dipo, Chattogram, Bangladesh",
 };
 
 export const socialLinks = [
