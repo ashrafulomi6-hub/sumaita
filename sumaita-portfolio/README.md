@@ -44,6 +44,7 @@ no environment variables required.
 
 ## Project structure
 
+
 ```
 app/            routes, layout, metadata, robots, sitemap, 404
 components/     UI sections (Hero, About, Education, Skills, Projects, ...)
